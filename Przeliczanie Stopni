@@ -1,0 +1,20 @@
+print("Podaj liczbę stopniCelsjusza") 
+stopnieCelsjusza=int(input()) 
+stopnieFarenheita=(stopnieCelsjusza*1.8+32) 
+print("stopnieFarenheita: ", stopnieFarenheita) 
+stopnieKelwina=stopnieCelsjusza+273.15 
+print("stopnieKelwina: ", stopnieKelwina) 
+
+print("Podaj liczbę stopniKelwina") 
+stopnieKelwina=int(input()) 
+stopnieFarenheita=(stopnieKelwina-273.15)*1.8+32 
+print("stopnieFarenheita: ", stopnieFarenheita) 
+stopnieCelsjusza=stopnieKelwina-273.15 
+print("stopnieCelsjusza: ", stopnieCelsjusza) 
+
+print("Podaj liczbę stopniFarenheita") 
+stopnieFarenheita=int(input()) 
+stopnieKelwina=((stopnieFarenheita-32)/1.8)+273.15 
+print("stopnieKelwina: ", stopnieKelwina) 
+stopnieCelsjusza=(stopnieFarenheita-32)*0.55 
+print("stopnieCelsjusza: ", stopnieCelsjusza) 
